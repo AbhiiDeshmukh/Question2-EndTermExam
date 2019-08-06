@@ -21,7 +21,7 @@ public static void main(String[] args) {
 }
 public List<Integer> listWithDuplicates(List<Integer> number){
 	List <Integer> L1 = new ArrayList<Integer>();
-	//System.out.println(number);
+	
 	for(int i=0;i<number.size();i++) {
 		L1.add(i, number.get(i));
 	}
